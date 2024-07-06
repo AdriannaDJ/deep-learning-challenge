@@ -19,7 +19,7 @@ This deep learning model was created to analysis whether applicants would be suc
 * The optimization model includes three layers with neurons 80, 30, and 1 respectfully. The activation functions utilized were relu and sigmoid.
 WHY?
 
-![Screenshot](Images/opt_values.png)
+![Screenshot](Images/opt_model.png)
 
 * Target model performance of above 75% accuracy was achieved. Optimization model achieved 75.79%. 
 
@@ -31,7 +31,7 @@ WHY?
 ## Summary ##
 Overall, the optimized model achieved the desired accuracy performance of 75%. It achieved 75.3-75.7%. If desired for higher accuracy, another model such as ___ could be performed. 
 
-![Screenshot](Images/opt_values.png)
+![Screenshot](Images/opt_results.png)
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
