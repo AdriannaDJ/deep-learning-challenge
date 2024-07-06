@@ -12,13 +12,14 @@ This deep learning model was created to analysis whether applicants would be suc
 * The feature variables include name, application type, affilcation, classification, use case, organization, status, income amount, special considerations, and ask amount. Name was removed in the original model and added back in the optimization model. 
 * EIN (employer identification number) was removed because it is an indentification column.
 
-[CColumn Values](Images/opt_values.png)
+![Screenshot](Images/opt_values.png)
 
 ### Compiling, Training, and Evaluating the Model ###
 
 * The optimization model includes three layers with neurons 80, 30, and 1 respectfully. The activation functions utilized were relu and sigmoid.
 WHY?
-[Defining Model Deep Neural Net](Images/opt_model.png)
+
+![Screenshot](Images/opt_values.png)
 
 * Target model performance of above 75% accuracy was achieved. Optimization model achieved 75.79%. 
 
@@ -30,7 +31,7 @@ WHY?
 ## Summary ##
 Overall, the optimized model achieved the desired accuracy performance of 75%. It achieved 75.3-75.7%. If desired for higher accuracy, another model such as ___ could be performed. 
 
-[Optimization Results](Images/opt_results.png)
+![Screenshot](Images/opt_values.png)
 
 Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
