@@ -23,7 +23,7 @@ This deep learning model was created to analysis whether applicants would be suc
 * Target model performance of above 75% accuracy was achieved. 
 
 * Several steps were taken to increase model performance.
-    * Data: In Name column was added back during the optimization model and was binned to decrease overall numbers of values. This increased accuracy by ~2%. The classification bin was increased to allow for several more values. Income amount was binned to decrease number of values. Ask amount was also binned however this did not alter the accuracy of the model and was ultimately removed.
+    * Data: The Name column was added back during the optimization model and was binned to decrease overall numbers of values. This increased accuracy by ~2%. The classification bin was increased to allow for several more values. Income amount was binned to decrease number of values. Ask amount was also binned however this did not alter the accuracy of the model and was ultimately removed.
 
     * Model: Higher and lower number of nodes were tested but resulting in lower accuracy scores. Adding hidden layers were attempted but this decreased the overall accuracy slightly. Epochs of 20, 40, 100 and 200 were tested. All attempts gave a differences of 0.2-0.4%. Epochs of 20 were chosen for efficiency.
 
